@@ -11,6 +11,11 @@ namespace CivHeadphoneExample_20210608.models
             this.PlugType = plugType;
             this.Cable = cable;
         }
+          public Wired(string name, uint weight, string type, bool microphone, 
+        uint price, string plugType) : base(name, weight, type, microphone, price) {
+
+            this.PlugType = plugType;
+        }
 
     }
 }
